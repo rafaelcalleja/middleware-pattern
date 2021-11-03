@@ -1,0 +1,24 @@
+{
+    "name": "rc/middleware-pattern",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Rafael Calleja",
+            "email": "rafaelcalleja@gmail.com"
+        }
+    ],
+    "autoload":
+    {
+        "psr-4": {
+            "RC\\" : "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "RC\\Test\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
